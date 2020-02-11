@@ -1,2 +1,2 @@
-# worker
-Do work in the main and background threads.
+# Worker
+Execute code in the main or background threads. Easily switch between them.
