@@ -29,7 +29,7 @@ Worker.doBackgroundWork {
     }
 }
 ```
-Worker's background threads use QoS `.userInitiated` to execute the code asynchronously with a higher priority.  
+Worker's background threads use QoS `.userInitiated` to execute code asynchronously with a higher priority.  
 [From Apple](https://developer.apple.com/documentation/dispatch/dispatchqos/qosclass/userinitiated):
 
 > User-initiated tasks are second only to user-interactive tasks in their priority on the system. Assign this class to tasks that provide immediate results for something the user is doing, or that would prevent the user from using your app. For example, you might use this quality-of-service class to load the content of an email that you want to display to the user.
