@@ -1,6 +1,6 @@
 [![swift-version](https://img.shields.io/badge/swift-5.1-brightgreen)](https://github.com/apple/swift)
 [![swift-package-manager](https://img.shields.io/badge/package%20manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
-[![build-status](https://travis-ci.org/backslash-f/Worker.svg?branch=master)](https://travis-ci.org/backslash-f/Worker)
+[![build-status](https://travis-ci.org/backslash-f/worker.svg?branch=master)](https://travis-ci.org/backslash-f/worker)
 [![license](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://en.wikipedia.org/wiki/MIT_License)
 
 # Worker
@@ -42,7 +42,7 @@ Use Xcode's [built-in support for SPM](https://developer.apple.com/documentation
 In your `Package.swift`, add `Worker` as a dependency:
 ```swift
 dependencies: [
-  .package(url: "https://github.com/backslash-f/Worker", from: "1.0.0")
+  .package(url: "https://github.com/backslash-f/worker", from: "1.0.0")
 ],
 ```
 
