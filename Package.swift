@@ -1,4 +1,5 @@
 // swift-tools-version:5.1
+
 import PackageDescription
 
 let package = Package(
@@ -16,5 +17,6 @@ let package = Package(
         .testTarget(
             name: "WorkerTests",
             dependencies: ["Worker"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
